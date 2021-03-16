@@ -1,0 +1,57 @@
+* { box-sizing: border-box;
+}
+
+.h1container { color: #FFF;
+    font-family: monospace;
+    font-size: 22px;
+    border: 1px solid #1b1b1b;
+    background-color: #000;
+    padding: 10px;
+    margin:0;
+    line-height:20px;}
+
+.navground { margin: 10px;
+  border: 0.1em solid #fff;
+  padding:20px;
+  margin:0%;
+  width:100%;
+  background-color: #3669c9;
+  float: left;}
+
+.spacenews { margin: 50px;
+            margin-top: 200px;
+            font-size: 22px;
+            line-height:40px;}
+
+  .column { float: right;
+            width: 50px;
+            padding: 5px;
+            margin-right:50px;
+            }
+
+   .row::after { content: "";
+                display: table;
+                clear: both }
+
+body { margin:0;}
+
+ul { list-style-type: none;
+      color: #000;
+      text-align: center;
+    }
+
+li a { float:left;
+      text-decoration: none;
+      padding-right: 100px;
+      margin-left:50px;
+      color: #fff;
+      font-family: sans-serif;
+      font-size:18pt;
+      text-align: center;
+      }
+
+img {
+
+    }
+
+h1 { margin-left: 100px;}
